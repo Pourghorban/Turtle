@@ -32,7 +32,7 @@ def M (M):
 
 # O
 
-def O (O) :
+def O () :
     m.color("red")
     m.begin_fill()
 
@@ -323,7 +323,7 @@ m.fd(-246.09)
 m.pendown()
 m.end_fill()
 
-O(O)
+O()
 
 m.penup()
 m.fd(7)
